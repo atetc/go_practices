@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+const prefix= "first:"
 var name string
 var age int
 
@@ -15,5 +16,5 @@ func first(vars string) string {
 }
 
 func main() {
-	fmt.Println(first("first:"))
+	fmt.Println(first(prefix))
 }
